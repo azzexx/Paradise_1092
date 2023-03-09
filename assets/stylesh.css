@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  font-family: 'Normal', sans-serif;
+  font-weight: 100;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: 'Normal';
+  src:  url('/assets/normal.woff2');
+}
+
+@font-face {
+  font-family: 'Mono';
+  src:  url('/assets/mono.woff2');
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;  
+  position: static;
+  display: grid;
+  height: auto;
+  width: 100%;
+  min-height: 500px;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 100%;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+h3 {
+  color: white;
+  font-family: 'Mono', sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.redtext {
+  font-size: 40px;
+  color: #CF1313;
+}
+
+img {
+  width: 737px;
+  height: 489px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+dos {
+  display: block;
+  padding: 100em;
+  width: 100em;
+}
+
+.btmg {
+  object-position: 50% 50%;
+  margin: 0 auto;
+  margin-bottom: 7em;
+  width: 100%;
+  position: static;
+  text-align: center;
+  display: flex;
+}
+
+.btmg img {
+  width: 556px;
+  height: 597px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.objs {
+    position: absolute;
+    display: flex;
+    left: -0.8em;
+    gap: 7em;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 19em;
+}
+
+.dispobjs {
+    background: transparent;
+    color: transparent;
+    user-select: none;
+    padding: 9em 4em;
+}
+
+.sobjs {
+    background-image: url(/assets/vidoe.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 91%;
+    height: 100%;
+    text-align: center;
+    background-color: #000000bf;
+    background-blend-mode: color-dodge;
+}
+
+.sobjs h3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.shitobjs {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -10em;
+    padding: 7em 0;
+    background: transparent;
+    z-index: 99999;
+    left: -4em;
+}
